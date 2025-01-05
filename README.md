@@ -28,3 +28,17 @@ Finally, we observed that the dataset exhibits a mild imbalance, with 463 cases 
 To address this, we applied over-sampling and under-sampling techniques, including `SMOTE`, to highlight the best-performing models.  
 
 All results from training the models on both the original and resampled datasets are provided in the `results_models` folder. The code related to this comparison is available in `model_others.ipynb`.
+
+## The best model (to use for the classification)  
+
+From the obtained results, we observe that:  
+
+1. Random oversampling is the most effective technique for balancing the dataset. This method also provides promising results during cross-validation.  
+
+1. The highest F1-score achieved is `0.97`, using the random oversampling technique and cross-validation. The most performant model in this scenario is: `XGBClassifier`.  
+
+1. Other models, such as `ExtraTreesClassifier` and `LGBMClassifier`, also performed well, achieving F1-scores of up to `0.96`.  
+
+1. Models like `GaussianNB` and `BernoulliNB` showed poor performance for this classification task.  
+
+1. Therefore, we chose `XGBClassifier` as the classifier for deploying our model. However, as a potential extension of this project, it would be valuable to include 3-5 of the best-performing models and display the results of all of them when the "Predict" button is clicked.  
