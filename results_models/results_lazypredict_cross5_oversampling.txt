@@ -1,0 +1,59 @@
+                               Accuracy  Balanced Accuracy  ROC AUC  F1 Score  \
+Model                                                                           
+LGBMClassifier                     0.96               0.96     0.96      0.96   
+RandomForestClassifier             0.95               0.95     0.95      0.95   
+ExtraTreesClassifier               0.95               0.95     0.95      0.95   
+XGBClassifier                      0.93               0.93     0.93      0.93   
+AdaBoostClassifier                 0.93               0.93     0.93      0.93   
+SVC                                0.92               0.92     0.92      0.92   
+BaggingClassifier                  0.91               0.91     0.91      0.91   
+NuSVC                              0.89               0.89     0.89      0.89   
+DecisionTreeClassifier             0.89               0.89     0.89      0.89   
+LinearSVC                          0.87               0.87     0.87      0.87   
+LogisticRegression                 0.86               0.87     0.87      0.86   
+CalibratedClassifierCV             0.86               0.87     0.87      0.86   
+RidgeClassifierCV                  0.86               0.86     0.86      0.86   
+LinearDiscriminantAnalysis         0.86               0.86     0.86      0.86   
+RidgeClassifier                    0.86               0.86     0.86      0.86   
+LabelPropagation                   0.85               0.85     0.85      0.85   
+LabelSpreading                     0.85               0.85     0.85      0.85   
+PassiveAggressiveClassifier        0.83               0.83     0.83      0.83   
+SGDClassifier                      0.81               0.81     0.81      0.81   
+ExtraTreeClassifier                0.81               0.81     0.81      0.81   
+NearestCentroid                    0.80               0.80     0.80      0.80   
+KNeighborsClassifier               0.80               0.80     0.80      0.80   
+Perceptron                         0.79               0.79     0.79      0.79   
+QuadraticDiscriminantAnalysis      0.78               0.78     0.78      0.78   
+BernoulliNB                        0.76               0.76     0.76      0.76   
+GaussianNB                         0.74               0.74     0.74      0.74   
+DummyClassifier                    0.50               0.50     0.50      0.33   
+
+                               Time Taken  
+Model                                      
+LGBMClassifier                       0.09  
+RandomForestClassifier               0.19  
+ExtraTreesClassifier                 0.21  
+XGBClassifier                        0.13  
+AdaBoostClassifier                   0.13  
+SVC                                  0.05  
+BaggingClassifier                    0.07  
+NuSVC                                0.06  
+DecisionTreeClassifier               0.02  
+LinearSVC                            0.06  
+LogisticRegression                   0.02  
+CalibratedClassifierCV               0.20  
+RidgeClassifierCV                    0.02  
+LinearDiscriminantAnalysis           0.03  
+RidgeClassifier                      0.01  
+LabelPropagation                     0.06  
+LabelSpreading                       0.06  
+PassiveAggressiveClassifier          0.02  
+SGDClassifier                        0.01  
+ExtraTreeClassifier                  0.02  
+NearestCentroid                      0.02  
+KNeighborsClassifier                 0.02  
+Perceptron                           0.02  
+QuadraticDiscriminantAnalysis        0.02  
+BernoulliNB                          0.02  
+GaussianNB                           0.02  
+DummyClassifier                      0.01  
