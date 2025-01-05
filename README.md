@@ -33,12 +33,12 @@ All results from training the models on both the original and resampled datasets
 
 From the obtained results, we observe that:  
 
-1. Random oversampling is the most effective technique for balancing the dataset. This method also provides promising results during cross-validation.  
+1. Random oversampling is the most effective technique for balancing the dataset. This method also provides promising results during cross-validation. However, we obtain almost the same results with the SMOTE technique  
 
-1. The highest F1-score achieved is `0.97`, using the random oversampling technique and cross-validation. The most performant model in this scenario is: `XGBClassifier`.  
+1. The highest F1-score achieved is `0.94`, using the random oversampling technique and cross-validation. The most performant model in this scenario is: `RandomForest`. Without the cross validation, the best results is up to `0.92`.  
 
-1. Other models, such as `ExtraTreesClassifier` and `LGBMClassifier`, also performed well, achieving F1-scores of up to `0.96`.  
+1. Other models, such as `ExtraTreesClassifier` and `LGBMClassifier`, also performed well, achieving F1-scores of up to `0.90`.  
 
 1. Models like `GaussianNB` and `BernoulliNB` showed poor performance for this classification task.  
 
-1. Therefore, we chose `XGBClassifier` as the classifier for deploying our model. However, as a potential extension of this project, it would be valuable to include 3-5 of the best-performing models and display the results of all of them when the "Predict" button is clicked.  
+1. Therefore, we chose `RandomForest` as the classifier for deploying our model. However, as a potential extension of this project, it would be valuable to include 3-5 of the best-performing models and display the results of all of them when the "Predict" button is clicked.  
